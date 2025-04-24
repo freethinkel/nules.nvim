@@ -13,7 +13,7 @@ require("themes.highlights").setup({
 		base08 = "#ACBDC3", -- just foreground, mardown titles, variables stc
 		base0A = "#EBD2A7", -- types, classes etc
 		base0B = "#BDB969", -- string
-		base0C = "#ACBDC3", -- std types, like string, :?, null
+		base0C = "#656e7c", -- std types, like string, :?, null
 		base0D = "#ACBDC3", -- properties,
 		-- base0E = "#8ECCFF", -- type keywrds, export, import
 		base0E = "#B08CBA", -- type keywrds, export, import

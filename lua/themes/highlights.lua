@@ -40,9 +40,9 @@ M.setup = function(theme)
 	hi("MiniStatuslineFilename", { fg = schema.base05, bg = schema.base01 })
 
 	-- lsp
-	hi("LspReferenceText", { bg = mixColors(schema.base00, colors.green, 0.1) })
-	hi("LspReferenceRead", { bg = mixColors(schema.base00, colors.blue, 0.1) })
-	hi("LspReferenceWrite", { bg = mixColors(schema.base00, colors.blue, 0.1) })
+	hi("LspReferenceText", { bg = mixColors(schema.base00, colors.green, 0.2) })
+	hi("LspReferenceRead", { bg = mixColors(schema.base00, colors.blue, 0.2) })
+	hi("LspReferenceWrite", { bg = mixColors(schema.base00, colors.blue, 0.2) })
 	hi(
 		"LspInlayHint",
 		{ bg = mixColors(schema.base00, schema.base0F, 0.1), fg = mixColors(schema.base0F, schema.base00, 0.1) }
@@ -62,18 +62,18 @@ M.setup = function(theme)
 		{ bg = mixColors(colors.yellow, schema.base00, 0.9), undercurl = true, sp = colors.yellow }
 	)
 
-	hi("DiagnosticHint", { bg = mixColors(colors.blue, schema.base00, 0.9), fg = colors.blue })
-	hi("DiagnosticSignHint", { bg = "none", fg = colors.blue })
+	hi("DiagnosticHint", { bg = mixColors(colors.green, schema.base00, 0.9), fg = colors.green })
+	hi("DiagnosticSignHint", { bg = "none", fg = colors.green })
 	hi(
 		"DiagnosticUnderlineHint",
-		{ bg = mixColors(colors.blue, schema.base00, 0.9), undercurl = true, sp = colors.blue }
+		{ bg = mixColors(colors.green, schema.base00, 0.9), undercurl = true, sp = colors.green }
 	)
 
-	hi("DiagnosticInfo", { bg = mixColors(colors.green, schema.base00, 0.9), fg = colors.green })
-	hi("DiagnosticSignInfo", { bg = "none", fg = colors.green })
+	hi("DiagnosticInfo", { bg = mixColors(colors.blue, schema.base00, 0.9), fg = colors.blue })
+	hi("DiagnosticSignInfo", { bg = "none", fg = colors.blue })
 	hi(
 		"DiagnosticUnderlineInfo",
-		{ bg = mixColors(colors.green, schema.base00, 0.9), undercurl = true, sp = colors.green }
+		{ bg = mixColors(colors.blue, schema.base00, 0.9), undercurl = true, sp = colors.blue }
 	)
 
 	hi("SpellCap", { undercurl = true, sp = colors.blue })
@@ -107,6 +107,7 @@ M.setup = function(theme)
 	hi("CursorLineNr", { fg = schema.base06, bold = true })
 	hi("CursorLineSign", { fg = schema.base06 })
 	hi("NonText", { fg = schema.base03 })
+	hi("SnacksIndent", { fg = schema.base02 })
 
 	-- statusline
 	hi("lualine_a_normal", { bg = colors.accent })
